@@ -88,7 +88,7 @@ function renderCollider(col){
 }
 
 function setup() {
-  let cnv = createCanvas(400, 400, document.getElementById("disp"));  
+  let cnv = createCanvas(210, 210, document.getElementById("disp"));  
   state.balls = genBalls(
     createVector(width/2,height/2), // Center
     p5.Vector.fromAngle(PI/2), //direction

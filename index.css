@@ -1,0 +1,15 @@
+
+.dispContainer {
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+
+* {
+    color: white;
+}
+
+
+h1{
+    margin-bottom: 0px;
+}

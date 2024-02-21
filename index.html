@@ -1,23 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="sketch.js"></script>
-    <meta charset="utf-8" />
-    <title>The Archive</title>
-  </head>
 
-  <body>
-    <div class="menu">
-      <ul class="bar">
-        <li><a href="projects.html">hello</a></li>
-        <li><a href="">there</a></li>
-        <li><a href="">general</a></li>
-      </ul>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <script src="sketch.js"></script>
+  <meta charset="utf-8" />
+  <title>The Archive</title>
+</head>
+
+<body>
+  <menu class="bar">
+    <li><a href="">Main menu</a></li>
+    <li><a href="projects.html" class="dropdown">Projects</a>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </li>
+    <li><a href="">Hirer me!</a></li>
+  </menu>
+
+  <div class="mainColumn">
+    <h1>Welcome!</h1>
+    <div class="inset">
+      <p>This is the archive of all my projects! most of the interesting things are on the
+        projects page. But if anything of particular interest is happening I might put it here.
+        <br>
+        This site is still underconstruction so please be patient with borken links and such! But <a
+          href="projects.html">this!</a> is currenttly working and I be really happy if you check it out!
+      </p>
     </div>
-    <canvas id="disp"></canvas>
-  </body>
+    <div class="dispContainer">
+      <canvas id="disp"></canvas>
+      <div>
+      </div>
+</body>
 
 
 
