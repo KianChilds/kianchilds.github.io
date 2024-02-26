@@ -8,3 +8,15 @@ h2 {
 p{
     margin-top: 0px;
 }
+
+.climb {
+    display: inline-block;
+}
+
+.video {
+    float: left;
+    margin: 5px;
+    width:40%;
+}
+
+

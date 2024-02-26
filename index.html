@@ -11,16 +11,26 @@
 </head>
 
 <body>
-  <menu class="bar">
+  <div class="bar">
     <li><a href="">Main menu</a></li>
-    <li><a href="projects.html" class="dropdown">Projects</a>
+    <li>
+      <div class="dropdown">
+        <a href="projects.html" class="dropbtn">Projects</a>
+        <div class="dropdown-content">
+          <a href="projects/animationLib.html">Animation Editor</a>
+          <a href="projects/HAMS.html">HAMS</a>
+          <!-- <a href="projects/">Link 3</a> -->
+        </div>
+      </div>
     </li>
     <li><a href="">Hirer me!</a></li>
-  </menu>
+  </div>
 
   <div class="mainColumn">
+    <div class = "center">
     <h1>Welcome!</h1>
-    <div class="inset">
+  </div>
+    <div class="inset">  
       <p>This is the archive of all my projects! most of the interesting things are on the
         projects page. But if anything of particular interest is happening I might put it here.
         <br>
@@ -28,10 +38,10 @@
           href="projects.html">this!</a> is currenttly working and I be really happy if you check it out!
       </p>
     </div>
-    <div class="dispContainer">
+    <div class="center">
       <canvas id="disp"></canvas>
-      <div>
-      </div>
+    <div>
+  </div>
 </body>
 
 
