@@ -13,7 +13,7 @@ body {
   overflow-y: visible;
   background-color: #333;
   width: 100%;
-  height:max-content;
+  height:calc(2em + 14px);
 }
 
 .bar li {
